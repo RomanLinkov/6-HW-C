@@ -15,7 +15,6 @@ PrintArrayInt(arrayFromUser);
 Console.Write($" -> {countPositiveNumbers}");
 Console.WriteLine();
 
-
 int CountPositiveNumbers(int[] array1)
 {
     int resulst=0;
@@ -33,6 +32,7 @@ int[] ArrayIntInput(int m)
     {
         array[i]=NumberInput($"Введите число {i+1}: ");
     }
+    Console.WriteLine();
     return array;
 }
 
